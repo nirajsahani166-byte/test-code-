@@ -10,13 +10,13 @@ D=pow(b,2)-4*a*c;
 if(D==0)
 {
     r1=(-b)/2*a;
-    printf("roots are real and equal %d ",r1);
+    printf("roots are real and equal %f ",r1);
 }
 else if(D>0)
 {
     r1=(-b+pow(D,1/2))/2*a;
     r2=(-b-pow(D,1/2))/2*a;
-    printf("roots are real and unequal r1=%d\nr2=%d",r1,r2);
+    printf("roots are real and unequal r1=%f\nr2=%f",r1,r2);
 }
 else
 {
