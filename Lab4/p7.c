@@ -2,8 +2,7 @@
 #include<math.h>
 int main()
 {
-    int n, i,x ,t1;
-    float s=0;
+    int n, i,x ,t1 ,s=0;
     printf("enter the term");
     scanf("%d",&n);
     printf("enter the value of x");
@@ -14,6 +13,6 @@ int main()
     printf("%d\n",t1);
     s=s+t1;
     }
-    printf("sum of series is %f",s);
+    printf("sum of series is %d",s);
     return 0;
 }
