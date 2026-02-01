@@ -1,4 +1,5 @@
-// program to scan n elements in array and sort them in decending order and also display second and third largest elements.//
+/* program to scan n elements in array and sort them in 
+decending order and also display second and third largest elements.*/
 #include<stdio.h>
 int main()
 {
