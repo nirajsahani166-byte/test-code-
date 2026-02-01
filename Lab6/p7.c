@@ -1,3 +1,5 @@
+/* program to scan two matrix of order r1xc1 and r2xc2 and 
+multiply them if possile and display multiplied matrix */
 #include<stdio.h>
 #define N 50
 int main()

@@ -1,3 +1,4 @@
+// program to check whether a user given string is armstrong or not //
 #include<stdio.h>
 #include<string.h>
 int main()

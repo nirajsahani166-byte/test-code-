@@ -1,3 +1,4 @@
+// program to scan the matric of order r*c and display it //
 #include<stdio.h>
 int main()
 {

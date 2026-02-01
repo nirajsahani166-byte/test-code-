@@ -1,4 +1,5 @@
-//calculating the sum of rows and column// 
+/* program to scan a matrix of order rxc and find the sum of individual row and
+ individual column and display it */
 #include<stdio.h>
 int main()
 {
@@ -35,10 +36,10 @@ int main()
     }
     
     printf("calculating the sum of column is \n");
-    for(i=0;i<r;i++)
+    for(i=0;i<c;i++)
     {
         csum=0;
-        for(j=0;j<c;j++)
+        for(j=0;j<r;j++)
         {
             csum=csum+m[j][i];
         }

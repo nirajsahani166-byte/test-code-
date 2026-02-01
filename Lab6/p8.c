@@ -1,3 +1,4 @@
+// program to scan two string and add them and find the total character in the given string //
 #include<stdio.h>
 #include<string.h>
 int main()

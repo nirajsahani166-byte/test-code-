@@ -1,3 +1,4 @@
+//program to scan the matrix of order 2*3 and sum them and display the summation matrix //
 #include<stdio.h>
 int main()
 {

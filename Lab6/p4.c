@@ -1,3 +1,4 @@
+//program to scan a matrix of order r*c and transpose the matrix and display them //
 #include<stdio.h>
 int main()
 {

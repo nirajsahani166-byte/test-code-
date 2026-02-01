@@ -1,3 +1,5 @@
+/* program to scan a matrix of order 4x4 and find maximum element among the elements of matrix and 
+substitute that maximum value elements in main diagonal elements and display new matrix */
 #include<stdio.h>
 int main()
 {
