@@ -5,7 +5,7 @@ int hcf(int num1,int num2);
 int main()
 {
     int h1, num1,num2;
-    printf("enter the two number numbers");
+    printf("enter the two numbers");
     scanf("%d%d",&num1,&num2);
     h1=hcf(num1,num2);
     printf("the hcf is %d ", h1);
