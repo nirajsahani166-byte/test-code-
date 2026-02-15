@@ -7,8 +7,7 @@
     int i,j,l;
     printf("enter the names \n");
        scanf("%s",&name);
-       l=0;
-    /*
+       /*l=0;
     while(name[l] !='\0')
     {
         l++;        alternatives of finding length of the string
