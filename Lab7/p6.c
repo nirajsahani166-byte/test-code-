@@ -9,7 +9,6 @@ int main()
     printf("enter the number");
     scanf("%d",&num);
     cond=arm(num);
-    lm(num);
     if(num==cond)
     {
         printf("%d is armstrom",num);
@@ -22,10 +21,10 @@ int main()
 }
 int arm(int n)
 {
-    int k=0,l,r,i,j,a,lm;
+    int k=0,l,r,i,j,a;
     r=n;
     l=log10(n)+1;
-    for(i=1;i<=lm;i++)
+    for(i=1;i<=l;i++)
     {
             a=r%10;
             r=r/10;
