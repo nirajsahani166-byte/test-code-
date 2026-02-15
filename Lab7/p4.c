@@ -1,3 +1,4 @@
+/*program to find simple interest using user-define fuction*/
 #include<stdio.h>
 float SI(float p,float t,float r);
 int main()
