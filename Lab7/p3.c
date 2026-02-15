@@ -5,7 +5,7 @@
  {
     char name[20],sort;
     int i,j,l;
-    printf("enter the names \n");
+    printf("enter the name \n");
        scanf("%s",&name);
        /*l=0;
     while(name[l] !='\0')
