@@ -13,5 +13,5 @@ int main()
 }
 void SI(int *p,int *t,int *r,int *i)
 {
-    *i=(*p**t**t)/100;1
+    *i=(*p**t**t)/100;
 }
