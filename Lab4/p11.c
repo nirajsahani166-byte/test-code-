@@ -1,3 +1,5 @@
+/*program to find the sum of the series 
+x+x^2/x!+x^3/3!+........+n-terms */
 #include<stdio.h>
 #include<math.h>
 int main()
