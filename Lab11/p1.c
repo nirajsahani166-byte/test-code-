@@ -15,7 +15,7 @@ int main()
     scanf("%s%s%d",s.name,s.add,&s.id);
     fprintf(fp,"%s %s %d",s.name,s.add,s.id);
     fclose(fp);
-    fp=fopen("student.dat","r");
+    fp=fopen("student.dat","rb");
     fscanf(fp,"%s %s %d",s.name,s.add,&s.id);
     printf("the details of student\n name=%s\n address=%s \n id=%d",s.name,s.add,s.id);
     fclose(fp);

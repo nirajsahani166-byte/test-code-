@@ -23,8 +23,11 @@ int main()
     fp=fopen("book.bin","rb");
     for(i=0;i<10;i++)
     {
+        if(b[i].aname=="xyz")
+        {
     fscanf(fp,"%s %s %f",b[i].bname,b[i].aname,&b[i].price);
     printf("the details of book\n Book_name=%s\n Author_name=%s \n price=%f",b[i].bname,b[i].aname,b[i].price);
+    }
     }
     fclose(fp);
     return 0;
