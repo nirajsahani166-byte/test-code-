@@ -11,7 +11,7 @@ int main()
     FILE *fp;
     struct employee e;
     fp=fopen("employee.bin","wb");
-    printf("Enter the name,post and salary of a student");
+    printf("Enter the name,post and salary of a employee");
     scanf("%s%s%f",e.name,e.post,&e.salary);
     fprintf(fp,"%s %s %f",e.name,e.post,e.salary);
     fclose(fp);
