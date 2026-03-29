@@ -23,7 +23,7 @@ int main()
     for(i=0;i<5;i++)
     {
     fscanf(fp,"%s %s %f",e[i].name,e[i].post,&e[i].salary);
-    printf("the details of employee\n name=%s\n post=%s \n salary=%f",e[i].name,e[i].post,e[i].salary);
+    printf("the details of employee\n name=%s\n post=%s \n salary=%f\n\n",e[i].name,e[i].post,e[i].salary);
     }
     fclose(fp);
     return 0;
