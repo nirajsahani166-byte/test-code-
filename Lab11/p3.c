@@ -12,7 +12,7 @@ int main()
     struct employee e[5];
     int i;
     fp=fopen("employee.bin","wb");
-    printf("Enter the name,post and salary of a student");
+    printf("Enter the name,post and salary of a employee");
     for(i=0;i<5;i++)
     {
     scanf("%s%s%f",e[i].name,e[i].post,&e[i].salary);
