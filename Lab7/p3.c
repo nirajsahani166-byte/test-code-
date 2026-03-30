@@ -8,9 +8,11 @@
     printf("enter the name \n");
        scanf("%s",&name);
        /*l=0;
+       i=0;
     while(name[l] !='\0')
     {
-        l++;        alternatives of finding length of the string
+        l++;  
+        i++;      alternatives of finding length of the string
     }
     */
    for(l=0;name[l] !='\0';l++)
