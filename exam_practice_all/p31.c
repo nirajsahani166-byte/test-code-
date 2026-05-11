@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    long i,j,c=1,k;
+    int i,j,c=1,k;
     for(i=1;c<=50;i++)
     {
         k=0;
